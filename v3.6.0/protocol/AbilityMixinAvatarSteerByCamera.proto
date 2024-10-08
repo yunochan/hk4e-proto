@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+import "Vector.proto";
+
+// Name: DGNCNCCLGEK
+message AbilityMixinAvatarSteerByCamera {
+  Vector target_pos = 10;
+  Vector target_dir = 14; // HKBOHPAPLMF
+}
+

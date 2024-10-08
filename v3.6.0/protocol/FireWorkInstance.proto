@@ -1,0 +1,11 @@
+// Proto has been converted from Sorapointa to Grasscutter format
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+import "FireWorkType.proto";
+
+message FireWorkInstance {
+	_fire_work_type type = 1;
+	int32 value = 2;
+}

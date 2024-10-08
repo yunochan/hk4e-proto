@@ -1,0 +1,13 @@
+
+syntax = "proto3";
+option java_package = "org.sorapointa.proto";
+
+import "Vector.proto";
+
+
+message EvtCombatSteerMotionInfo {
+  Vector face_dir = 3;
+  Vector velocity = 8;
+  uint32 entity_id = 6;
+  Vector pos = 1;
+}

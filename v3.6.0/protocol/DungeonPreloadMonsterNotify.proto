@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+import "PlatformType.proto";
+
+message DungeonPreloadMonsterNotify {
+    repeated PlatformType platform_list = 14;
+    repeated uint32 monster_id_list = 7;
+}
+

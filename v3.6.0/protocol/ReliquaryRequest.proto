@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+
+message ReliquaryRequest {
+	uint32 equip_type = 3;
+}

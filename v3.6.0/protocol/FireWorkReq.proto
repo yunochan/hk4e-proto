@@ -1,0 +1,14 @@
+// Proto has been converted from Sorapointa to Grasscutter format
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+import "FireWorkData.proto";
+
+// CmdId: 6068
+// EnetChannelId: 0
+// EnetIsReliable: true
+// IsAllowClient: true
+message FireWorkReq {
+	_fire_work_data fire_work_data = 7;
+}

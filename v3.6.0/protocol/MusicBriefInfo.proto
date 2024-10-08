@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+
+
+
+message MusicBriefInfo {
+	uint64 ugc_guid = 8;
+	uint32 Unk3300_CCMMPAHIMDO = 88;
+	uint32 Unk3300_PLNOFOHFAPE = 15;
+	repeated uint32 Unk3300_HKBHAIMOBKO = 1363;
+	bool Unk3300_FKIGPAJFPLG = 5;
+	uint64 importFromUgcGuid = 6;
+	uint32 music_id = 14;
+	repeated uint32 Unk3300_JEEBFPFEHHG = 1062;
+	uint32 Unk3300_MBKDGBNFPOA = 1837;
+	uint32 Unk3300_OJOKFBJALIJ = 7;
+	uint32 Unk3300_EGIGIOOKBAB = 287;
+	uint32 Unk3300_OBBMCFADNIN = 2;
+	uint32 Unk3300_PBENMAHHGIL = 9;
+	bool Unk3300_NCDKCNOLGKB = 4;
+	uint32 version = 1;
+	string creator_nickname = 3;
+	bool Unk3300_GDNAPNAINBA = 11;
+	uint32 max_score = 12;
+	uint32 Unk3300_KMMBLIMKJCM = 10;
+	bool is_psn_platform = 13;
+}

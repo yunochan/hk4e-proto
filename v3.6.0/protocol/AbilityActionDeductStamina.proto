@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+
+
+message AbilityActionDeductStamina {
+    bool is_swim = 1;
+}

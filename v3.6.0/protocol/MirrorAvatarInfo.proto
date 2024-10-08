@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+
+// Name: PGHIDDKHGAL
+message MirrorAvatarInfo {
+    uint32 copy_from_avatar_type = 1;
+}

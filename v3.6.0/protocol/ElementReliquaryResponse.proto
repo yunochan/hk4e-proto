@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+
+
+import "GameplayRecommendationReliquaryMainPropData.proto";
+
+message ElementReliquaryResponse {
+	uint32 element_type = 4;
+	repeated GameplayRecommendationReliquaryMainPropData nbbpegfkpac = 3;
+	uint32 equip_type = 7;
+}

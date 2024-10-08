@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+import "ChapterState.proto";
+
+// CmdId: 475
+// Name: JKMGOFOBNBC
+message ChapterStateNotify {
+    // Name: PBMHNPFBBOI ???
+    message NeedPlayerLevel {
+        bool is_limit = 15; // HJHDAHFJGBM ???
+        uint32 config_need_player_level = 5; // IOOFCEKCNLP ???
+    }
+
+    // Name: EHMGNAPJJJO ???
+    message NeedBeginTime {
+        uint32 config_need_begin_time = 6; // OBBEJICFPIC ???
+        bool is_limit = 4; // HJHDAHFJGBM ???
+    }
+
+    ChapterState chapter_state = 13;
+    NeedPlayerLevel need_player_level = 3; // NCCCEAHMHHB ???
+    uint32 chapter_id = 15;
+    NeedBeginTime need_begin_time = 11; // EIPKJBGKGKE ???
+}
+

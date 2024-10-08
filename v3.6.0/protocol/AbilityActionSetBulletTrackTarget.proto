@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+
+
+message AbilityActionSetBulletTrackTarget {
+    uint32 chased_entity_id = 4; 
+    uint32 lock_point_index = 1;
+}
+

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+message AttackResultCreateCount {
+    repeated uint32 create_count_no_cost_list = 7;
+    repeated uint32 create_count_list = 9; 
+}

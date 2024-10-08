@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+
+
+message AbilityMixinUGCTimeControl {
+    uint32 start_move_time = 6; 
+    uint64 start_move_time_ms = 9; 
+}
+

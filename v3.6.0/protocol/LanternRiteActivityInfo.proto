@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+
+
+import "LanternRiteFireworksInfo.proto";
+import "LanternProjectionInfo.proto";
+import "SalvageStageInfo.proto";
+
+message LanternRiteActivityInfo {
+	_lantern_rite_fireworks_info fireworks_info = 6;
+	_lantern_projection_info projection_info = 11;
+	bool left_monsters = 9;
+	bool Unk3300_PDFJNCDGKGH = 3;
+	repeated SalvageStageInfo stageInfoList = 1;
+	bool Unk3300_DKBJLCIMBAL = 7;
+}

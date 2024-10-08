@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+
+
+message AbilityActionTriggerAbility {
+    uint32 other_id = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+message MaterialInfo {
+    uint32 count = 13;
+    uint64 guid = 4;
+}

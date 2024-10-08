@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+import "Vector.proto";
+
+message EvtSyncTransform {
+    Vector entity_rot = 9; 
+    Vector entity_pos = 8; 
+    uint32 entity_id = 4;
+}
+

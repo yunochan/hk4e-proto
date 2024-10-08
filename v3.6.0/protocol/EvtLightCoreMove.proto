@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+import "Vector.proto";
+
+
+message EvtLightCoreMove {
+    float acelerate = 3; 
+    uint32 entity_id = 4;
+    float max_absorb_time = 6; 
+    Vector target_pos = 2;
+    float speed = 1;
+}
+

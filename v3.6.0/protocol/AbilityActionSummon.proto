@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+import "Vector.proto";
+
+
+message AbilityActionSummon {
+    Vector pos = 1; // ok
+    Vector rot = 5; // ok
+}

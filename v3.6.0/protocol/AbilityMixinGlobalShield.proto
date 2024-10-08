@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+
+message AbilityMixinGlobalShield {
+    float height_offset = 4; 
+    string shield_effect_name = 5; 
+    uint32 avatar_id = 15;
+    bool is_create_effect = 3;
+    float max_shield = 1; 
+    float sub_shield = 2;
+}

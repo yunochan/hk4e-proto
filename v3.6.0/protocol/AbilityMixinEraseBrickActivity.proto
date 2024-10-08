@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+
+message AbilityMixinEraseBrickActivity {
+    repeated uint32 data = 5;
+}
+

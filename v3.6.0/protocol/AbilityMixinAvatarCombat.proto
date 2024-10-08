@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+
+
+message AbilityMixinAvatarCombat {
+    bool is_enter_combat = 4; 
+}

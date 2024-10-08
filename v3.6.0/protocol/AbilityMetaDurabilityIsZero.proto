@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+message AbilityMetaDurabilityIsZero {
+     bool is_zero = 4;
+}

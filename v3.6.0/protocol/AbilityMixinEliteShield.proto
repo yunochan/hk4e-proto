@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+
+
+message AbilityMixinEliteShield {
+    float sub_shield = 13;
+}
+

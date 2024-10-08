@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "catgirl.kirara.moe";
+
+
+
+message AbilityMetaLoseHp {
+    uint32 lose_hp_config_idx = 2; 
+}
